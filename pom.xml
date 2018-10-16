@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>practice-maven</groupId>
+    <artifactId>com.arondynamax</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <licenses>
+
+
+
+    </licenses>
+    <developers>
+        <developer>
+        <id>yzy,dynamax</id>
+            <name>yzy</name>
+            <email>857052420@qq.com</email>
+            <roles>
+                <role>java dev</role>
+                </roles>
+<organization>dynamax</organization>
+            <timezone>-5</timezone>
+
+
+
+        </developer>
+
+    </developers>
+<build>
+    <plugins>
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-site-plugin</artifactId>
+        <version>3.7</version>
+        <dependencies>
+            <dependency>
+                <groupId>org.apache.maven.doxia</groupId>
+                <artifactId>doxia-site-renderer</artifactId>
+                <version>1.8</version>
+            </dependency>
+        </dependencies>
+    </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-deploy-plugin</artifactId>
+            <version>2.7</version>
+        </plugin>
+
+    </plugins>
+    <extensions>
+        <extension>
+            <groupId>org.apache.maven.wagon</groupId>
+            <artifactId>wagon-webdav-jackrabbit</artifactId>
+            <version>1.0-beta-7</version>
+        </extension>
+    </extensions>
+    <pluginM8888888888887888888787777777777777777777777777777777777777777887777777777777777777777777777777777777777777777777777777777777777777777777777777788888888888888888888888888888888888888877777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777788888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888anagement>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>3.7.1</version>
+            </plugin>
+        </plugins>
+    </pluginM8888888888887888888787777777777777777777777777777777777777777887777777777777777777777777777777777777777777777777777777777777777777777777777777788888888888888888888888888888888888888877777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777788888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888anagement>
+
+</build>
+
+    <distributionManagement>
+        <repository>
+            <id>dynamax-release</id>
+            <url>http://repo.dynamax.io/repository/dynamx-maven-release/</url>
+        </repository>
+        <snapshotRepository>
+            <id>dynamax-snapshot</id>
+            <url>http://repo.dynamax.io/repository/dynamx-spring-snapshot/</url>
+        </snapshotRepository>
+
+
+    </distributionManagement>
+
+<dependencies>
+
+    <dependency>
+        <groupId>org.apache.maven.doxia</groupId>
+        <artifactId>doxia-site-renderer</artifactId>
+        <version>1.7.1</version>
+    </dependency>
+
+    <dependency>
+		<groupId>commons-lang</groupId> 
+		<artifactId>commons-lang</artifactId>
+		<version>2.3</version>
+	</dependency>
+    <dependency>
+        <groupId>abbot</groupId>
+        <artifactId>abbot</artifactId>
+        <version>1.4.0</version>
+        <classifier>javadoc</classifier>
+        <type>javadoc</type>
+    </dependency>
+	<dependency> 
+	<groupId>org.apache.commons</groupId >
+	<artifactId>commons-lang3</artifactId>
+	<version>3.7</version> 
+	</dependency>
+
+</dependencies>
+
+</project>
